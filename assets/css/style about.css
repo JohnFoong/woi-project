@@ -1,0 +1,80 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.a:hover,
+.b:hover,
+.c:hover,
+.d:hover,
+.e:hover {
+  transform: scale(1.07);
+}
+body {
+  background-color: black;
+}
+header {
+  background-image: url(../img/design.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.one {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+.one h2 {
+  color: red;
+}
+
+.two {
+  border-top: 2px solid gray;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.two h2 {
+  color: red;
+}
+
+.three {
+  border-top: 2px solid gray;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.three h2 {
+  color: red;
+}
+
+.four {
+  border-top: 2px solid gray;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.four h2 {
+  color: red;
+}
+.five {
+  border-top: 2px solid gray;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.five h2 {
+  color: red;
+}

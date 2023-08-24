@@ -1,0 +1,82 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.a:hover,
+.b:hover,
+.c:hover,
+.d:hover,
+.e:hover {
+  transform: scale(1.07);
+}
+header {
+  background: url("../img/161e95e7c1bfecfcd8f977b4cc30bb51.jpg");
+  background-size: cover;
+  height: 75vh;
+  background-position: center;
+}
+
+header .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 75%;
+  width: 100%;
+}
+header h1 {
+  font-size: 90px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+section h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.name {
+  margin-bottom: 10px;
+}
+
+.phone {
+  margin-bottom: 10px;
+}
+
+.email {
+  margin-bottom: 10px;
+}
+.comment {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 25px;
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+button:hover {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+}
+
+.one {
+  color: white;
+}
+
+input {
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+h5 {
+  margin-top: 20px;
+}

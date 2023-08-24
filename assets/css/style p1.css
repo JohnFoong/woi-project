@@ -1,0 +1,59 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(../img/Black-McLaren-P1.png);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+header h1 {
+  margin-left: 30px;
+  font-size: 70px;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.two {
+  margin: auto;
+  height: 60%;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .two {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.three {
+  margin-top: 100px;
+}
+
+.three h1 {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.three h3 {
+  color: white;
+  margin-bottom: 50px;
+}
+.four h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}

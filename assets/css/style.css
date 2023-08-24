@@ -1,0 +1,53 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.a:hover,
+.b:hover,
+.c:hover,
+.d:hover,
+.e:hover {
+  transform: scale(1.07);
+}
+
+body {
+  background-color: black;
+}
+header {
+  background: url("../img/McLaren_new.jpg");
+  background-size: cover;
+  height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+header .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+header h1 {
+  color: white;
+  font-size: 80px;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 60px;
+}
+
+.one {
+  padding-top: 50px;
+}
+
+.one,
+.two h1 {
+  color: white;
+}
+
+.two {
+  padding-top: 100px;
+}
+.two h4,
+p {
+  color: white;
+}

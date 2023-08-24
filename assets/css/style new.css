@@ -1,0 +1,76 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.a:hover,
+.b:hover,
+.c:hover,
+.d:hover,
+.e:hover {
+  transform: scale(1.07);
+}
+
+header {
+  background-image: url(../img/McLaren_750S.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+header h1 {
+  color: white;
+  font-size: 70px;
+  padding-left: 30px;
+}
+header .info {
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-left: 40px;
+  background-color: orangered;
+  border: 1px solid orangered;
+}
+
+.info:hover {
+  background-color: rgb(210, 56, 0);
+}
+
+.b1,
+.b2,
+.b3,
+.b4 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+section h1 {
+  color: white;
+}
+section button {
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: orangered;
+  border: 1px solid orangered;
+}
+
+section button:hover {
+  background-color: rgb(210, 56, 0);
+}
